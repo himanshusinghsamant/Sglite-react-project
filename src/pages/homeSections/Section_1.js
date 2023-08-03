@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const SpanDiv = ({num="", text=""})=>{
   return(
-    <div className="w-[8rem] mt-5 mr-5 md:mr-0 h-[8rem] font-['DM_Serif_Display] border-2 border-blue-200 shadow-md md:border-none flex flex-col justify-center  text-center   md:w-[9rem] lg:mr-5 lg:w-[12rem] lg:shadow-none lg:border-none">
+    <div className="w-[8rem] mt-5 mr-5 md:mr-0 h-[8rem] font-['DM_Serif_Display] border-2 border-blue-200 shadow-md md:border-none flex flex-col justify-center  text-center   md:w-[9rem] lg:mr-5 lg:w-[12rem] lg:shadow-none lg:border-none lg:mb-10">
     <span className=" text-[#186899] text-3xl font-bold md:text-5xl">
       {num}
     </span>
@@ -53,9 +53,9 @@ const Section_1 = () => {
         <div className="exp-sec w-[100%]  bg-[#F3FCFF] flex items-center justify-center flex-wrap px-5 py-7 lg:relative">
           <SpanDiv num="12" text="Year Experiance"/>
 
-          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[55px] left-[33%]"/>
-          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[55px] left-[48.5%]"/>
-          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[55px] left-[64%]"/>
+          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[70px] left-[33%]"/>
+          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[70px] left-[48.5%]"/>
+          <hr className="bg-[#186899] lg:h-[80px] lg:w-[2px] lg:absolute lg:z-30 top-[70px] left-[64%]"/>
 
           <SpanDiv num="85" text="Success Project"/>
          
