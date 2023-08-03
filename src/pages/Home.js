@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <div>
-      <main className="w-[100%] h-[55rem] md:h-[40.1875rem] bg-[#D8E8EE]  flex flex-col justify-center md:items-center md:flex-row">
+      <main className="w-[100%] h-[55rem] md:h-[40.1875rem] bg-[#D8E8EE]  flex flex-col justify-center md:items-center md:flex-row lg:mt-[11%]">
         <div className="main-box-1 text-center space-y-8 py-5 md:w-[40%] md:ml-[13%] md:text-start">
           <span data-aos ='fade-right' className="">
             <p className="text-[2.0625rem]  md:text-[3rem] font-bold text-[#186899] font-['DM_Serif_Display'] md:text-start ">
