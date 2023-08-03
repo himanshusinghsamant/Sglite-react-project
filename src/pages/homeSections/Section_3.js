@@ -21,10 +21,10 @@ const Section_3 = () => {
       <section>
         <div className="main-sec-3 w-[100%] h-auto px-7 py-10 text-center md:h-[50rem]">
           <span className="text-4xl font-bold">Key Features Of Products</span>
-          <div className="products-sec flex flex-wrap my-10 py-5 md:justify-center">
+          <div className="products-sec flex flex-wrap my-10 py-5  md:justify-center">
            
            {ProData && ProData.map(items =>{
-            return( <div data-aos='zoom-in' className="pro-img-box space-y-3 bg-white w-[160px] h-[230px] flex flex-col items-center my-2 mx-2 shadow-md md:h-[250px] md:w-[180px] lg:w-[200px] lg:h-[260px] lg:mx-10 lg:my-8 lg:shadow-none">
+            return( <div data-aos='zoom-in' className="pro-img-box space-y-3 bg-white w-[100%] px-10 md:px-2 h-[230px] flex flex-col items-center  my-2 mx-2 shadow-md md:h-[250px] md:w-[180px] lg:w-[200px] lg:h-[260px] lg:mx-10 lg:my-8 lg:shadow-none">
             <div className="image w-[60px] h-[60px]">
               <img src={items.image} alt="product-Img" />
             </div>

@@ -48,7 +48,7 @@ const Navbar = () => {
             </ul>
           </div>
          <div onClick={ShowModal}>
-         <Button />
+         <Button text='Get Free Quote'/>
          </div>
         </div>
       ) : null}
