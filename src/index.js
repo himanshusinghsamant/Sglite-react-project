@@ -4,6 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import 'aos/dist/aos.css';
+
+import AOS from 'aos';
+AOS.init({ disable: 'phone' }); // Add this line to disable AOS animation on phone devices
+
+// Add this line to reinitialize AOS on route change
+window.addEventListener('load', () => {
+  AOS.refresh();
+});
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
